@@ -15,7 +15,7 @@ html {
     font-size: 62.5%;
 }
 
-*, *:before, *::after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
@@ -71,18 +71,18 @@ h3{
     justify-content: center;
 }
 
-.header_logo{
+.header__logo{
     margin: 3rem 0;
 }
 
 /* Footer */
 .footer{
     background-color: var(--primarioOscuro);
-    padding: 1rmem 0;
+    padding: 1rem 0;
     margin-top: 2rem;
 }
 
-.footer_texto{
+.footer__texto{
     font-family: var(--fuentePrincipal);
     text-align: center;
     font-size: 2.2rem;
@@ -105,12 +105,6 @@ h3{
     font-size: 3rem;
 }
 
-
-.navegacion_enlace:last-of-type{
-    margin-right:0;
-}
-
-
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
     color: var(--secundario);
@@ -120,7 +114,7 @@ h3{
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap:2rem;
 }
 
@@ -136,8 +130,6 @@ h3{
     background-color: var(--primarioOscuro);
     padding:1rem;
 }
-
-
 
 .producto__nombre{
     font-size: 4rem;
@@ -267,7 +259,6 @@ h3{
 .formulario__submit:hover{
     cursor: pointer;
     background-color: var(--secundarioOscuro);
-
 }
 
 
